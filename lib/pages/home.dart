@@ -82,7 +82,10 @@ onCancel: () => Navigator.of(context).pop(),
       backgroundColor: Colors.blue[200],
      appBar: AppBar(
       backgroundColor: Colors.blue[400],
-      title: Text('TO DO'),
+      
+      title: 
+    
+       Center(child: Text('Your TODO List')),
       elevation: 0,
      ),
     floatingActionButton: FloatingActionButton(onPressed: createNewTask,
